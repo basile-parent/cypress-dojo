@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Dojo to practice Cypress",
   "scripts": {
-    "cypress:install-local": ".\\node_modules\\.bin\\cypress.cmd install --force",
+    "cypress:install-local": ".\\node_modules\\.bin\\cypress.cmd install --force && rm -rf .\\cypress\\integration\\*",
     "cypress:ui": "cypress open",
     "cypress:headless": "cypress run"
   },
