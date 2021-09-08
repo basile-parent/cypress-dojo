@@ -1,0 +1,23 @@
+{
+  "name": "cypress-dojo",
+  "version": "1.0.0",
+  "description": "Dojo to practice Cypress",
+  "scripts": {
+    "cypress:install-local": ".\\node_modules\\.bin\\cypress.cmd install --force",
+    "cypress:ui": "cypress open",
+    "cypress:headless": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basile-parent/cypress-dojo.git"
+  },
+  "author": "Basile Parent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basile-parent/cypress-dojo/issues"
+  },
+  "homepage": "https://github.com/basile-parent/cypress-dojo#readme",
+  "devDependencies": {
+    "cypress": "^8.3.1"
+  }
+}
