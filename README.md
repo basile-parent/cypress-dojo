@@ -13,3 +13,15 @@ npm run cypress:install-local
 ```
 npm run cypress:ui
 ```
+
+## Exercices
+### Exercice 1
+Fichier `cypress/integration/exo-1.spec.js` : nous allons tester l'application **https://example.cypress.io/todo**
+1. Visitez la page
+   <br/>⇒ Vérifiez qu'il y a 2 items dans la TODO list
+2. Saisissez une valeur dans le champ texte et appuyez sur Entrée (type(`${newItem}{enter}`)
+   <br/>⇒ Vérifiez qu’il y a maintenant 3 items
+3. Complétez l’item “Pay electric bill” (clic sur la checkbox)
+   <br/>⇒ Vérifiez que l’item a maintenant la classe completed.
+4. Double cliquez sur l’item “Walk the dog”, changez le texte en “Walk the doggo” puis cliquez sur l’élément h1.
+   <br/>⇒ Vérifiez que le texte a bien été modifié.
