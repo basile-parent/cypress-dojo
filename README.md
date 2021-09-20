@@ -15,8 +15,10 @@ npm run cypress:ui
 ```
 
 ## Exercices
+Nous allons tester l'application **https://example.cypress.io/todo**
+
 ### Exercice 1
-Fichier `cypress/integration/exo-1.spec.js` : nous allons tester l'application **https://example.cypress.io/todo**
+Fichier `cypress/integration/first-test.spec.js`:
 1. Visitez la page
    <br/>⇒ Vérifiez qu'il y a 2 items dans la TODO list
 2. Saisissez une valeur dans le champ texte et appuyez sur Entrée (type(`${newItem}{enter}`)
