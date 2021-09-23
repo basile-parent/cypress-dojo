@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/basile-parent/cypress-dojo#readme",
   "devDependencies": {
-    "cypress": "^8.3.1"
+    "cypress": "^8.3.1",
+    "cypress-cucumber-preprocessor": "^4.2.0"
   }
 }
